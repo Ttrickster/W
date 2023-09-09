@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2? Family= Roboto & display=swap");
+
+body {
+  background: hsla(133, 93%, 11%, 0.209);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blueviolet;
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+h1 {
+  color: azure;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 80px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 55px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: rgb(95, 160, 103);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.bg-yellow {
+  background: rgba(0, 252, 76, 0.123);
+}
+
+.bg-green {
+  background: rgba(93, 0, 255, 0.105);
+}
+
+.bg-red {
+  background: rgba(247, 204, 204, 0.649);
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: rgb(105, 105, 105);
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(1) {
+  color: rgb(184, 102, 109);
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid cadetblue;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: rgb(16, 130, 134);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #c0bdb6;
+  color: #392f2f;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.row > .form-group:first-child {
+  margin-right: 80px;
+}
+
+.btn {
+  background: rgb(163, 182, 139);
+  padding: 15px 20px;
+  color: rgb(89, 33, 31);
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
